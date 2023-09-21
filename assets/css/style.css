@@ -325,6 +325,9 @@ ul {
         background-color: #ffffff !important;
         border: 1px solid gray !important;
     }
+    .section__banner-img {
+        height: 299px;
+    }
     .section__akses-cepat-card-img {
         width: 100%;
         height: 150px;
