@@ -1,0 +1,404 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*,
+body,
+html {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-lg {
+    font-size: 24px !important;
+}
+
+header {
+    background-color: #272b36;
+}
+.header__img {
+    width: 61px;
+    height: 58px;
+}
+.header__headline-brand {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 117%;
+    background: -webkit-linear-gradient(-86deg, #0a7bd7 53%, #033b6a 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+    color: #ffffff;
+}
+
+.btn-primary {
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #2582e1 !important;
+    border-radius: 5px !important;
+    padding: 10px 22px !important;
+}
+
+ul {
+    margin: 0px !important;
+}
+.section__main {
+    background-color: #12151c;
+}
+.section__banner-img {
+    object-fit: cover;
+    height: 499px;
+}
+.card-wrapper {
+    padding: 17px 31px;
+    background-color: #212530;
+    border-radius: 25px;
+}
+
+.card {
+    border-radius: 20px !important;
+    width: 100% !important;
+    color: white !important;
+    background-color: #333947 !important;
+}
+.section__akses-cepat-card-img {
+    width: 140px;
+    height: 140px;
+}
+
+.section__akses-cepat-card-type-money {
+    width: 22px;
+    height: 22px;
+}
+
+.section__akses-cepat-card-type-text {
+    color: #c0c0c0;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.form-control {
+    padding: 8px 8px !important;
+    border: 1px solid #2582e1 !important;
+    background: transparent !important;
+    font-size: 9.5px !important;
+    color: #c0c0c0 !important;
+}
+
+.form-control::placeholder {
+    color: #c0c0c0 !important;
+    font-size: 9.5px;
+    font-weight: 500;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 6px 0px !important;
+}
+
+.section__akses-cepat-card-body-text-desc {
+    font-size: 1.3rem !important;
+    font-weight: 800;
+}
+
+.section__game-populer-img {
+    width: 208px;
+    height: 292px;
+    border-radius: 10px;
+}
+
+.section__game-populer {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+
+.section__game-populer-img {
+    margin: 5px 20px 0px 0px;
+    object-fit: cover;
+}
+
+.active {
+    padding: 10px 19px !important;
+    border-radius: 37px !important;
+    background-color: #333947 !important;
+}
+
+.section__games {
+    border-radius: 50px !important;
+}
+
+.form-control-section__games {
+    position: relative;
+    border-radius: 50px;
+    padding: 10px 24px 10px 16px;
+    background-color: #333947;
+    border: 0.5px solid #2582e1;
+    font-size: 12px;
+    font-weight: 400;
+    color: #c0c0c0;
+    outline: none;
+    width: 100%;
+}
+
+.footer {
+    background-color: #272b36;
+}
+.footer__img {
+    width: 61px;
+    height: 58px;
+}
+.footer__brand {
+    width: 30%;
+}
+.footer__headline-brand {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 117%;
+    background: -webkit-linear-gradient(-86deg, #0a7bd7 53%, #033b6a 91%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 6px transparent;
+    color: #ffffff;
+}
+
+.footer__payments {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+}
+.footer__payments-img {
+    width: 123px;
+    height: 39px;
+    object-fit: contain;
+}
+
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .header__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .header__img {
+        width: 40px;
+        height: 35px;
+    }
+    .btn-primary {
+        padding: 10px 0px !important;
+        width: 100%;
+    }
+    .navbar-nav-link {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border: 1px solid gray !important;
+    }
+    .section__banner-img {
+        object-fit: contain;
+        height: 100%;
+    }
+    .card-wrapper {
+        padding: 17px 12px;
+    }
+    .section__akses-cepat-card-img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+        border-radius: 12px;
+        margin: 0px 0px 20px 0px;
+    }
+    .section__akses-cepat-card-body-text-desc {
+        font-size: 1rem !important;
+    }
+    .section__game-populer-img {
+        width: calc(208px - 70px);
+        height: 190px;
+    }
+    .section__games-nav {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        align-items: center;
+        font-size: 12px;
+        gap: 0px 10px;
+        white-space: nowrap;
+        margin: 10px 0px;
+    }
+    .card-wrapper + .section__games {
+        border-radius: 16px !important;
+    }
+    .section__game-populer-img {
+        width: 40%;
+    }
+    .footer__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    .footer__img {
+        width: 40px;
+        height: 35px;
+    }
+    .footer__brand {
+        width: 100%;
+    }
+    .footer__headline {
+        font-size: 14px;
+    }
+    .footer__headline-brand-desc {
+        font-size: 14px;
+    }
+    .footer__link {
+        font-size: 12px;
+    }
+    .footer__link-img {
+        width: 20px;
+        height: 20px;
+    }
+    .footer__payments-title {
+        font-size: 14px;
+    }
+    .footer__payments-img {
+        width: 80px;
+        height: 39px;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .header__img {
+        width: 40px;
+        height: 35px;
+    }
+    .btn-primary {
+        padding: 10px 0px !important;
+        width: 100%;
+    }
+    .navbar-nav-link {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border: 1px solid gray !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 425px) {
+    .section__akses-cepat-card-body {
+        display: flex;
+        flex-direction: row;
+    }
+    .section__akses-cepat-card-img {
+        width: 100%;
+        height: 110px;
+        margin-bottom: 20px;
+    }
+    .section__akses-cepat-card-body-text-desc {
+        font-size: 1rem !important;
+    }
+    .form-control::placeholder {
+        font-size: 8px;
+    }
+    .btn-primary {
+        padding: 4px 0px !important;
+    }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .header__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .header__img {
+        width: 40px;
+        height: 35px;
+    }
+    .btn-primary {
+        padding: 10px 62px !important;
+    }
+    .navbar-nav-link {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border: 1px solid gray !important;
+    }
+    .section__akses-cepat-card-img {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 9px;
+    }
+    .section__akses-cepat-card-body-text-desc {
+        font-size: 12px !important;
+    }
+    .section__akses-cepat-card-title {
+        font-size: 18px !important;
+    }
+    .btn-primary {
+        padding: 8px 0px !important;
+    }
+    .section__games-nav {
+        width: 450px;
+        display: flex;
+        overflow-x: scroll;
+        flex-wrap: nowrap;
+        white-space: nowrap;
+    }
+    .footer__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+    .footer__img {
+        width: 40px;
+        height: 35px;
+    }
+    .footer__brand {
+        width: 100%;
+    }
+    .footer__headline {
+        font-size: 14px;
+    }
+    .footer__headline-brand-desc {
+        font-size: 14px;
+    }
+    .footer__link {
+        font-size: 12px;
+    }
+    .footer__link-img {
+        width: 20px;
+        height: 20px;
+    }
+    .footer__payments-title {
+        font-size: 14px;
+    }
+    .footer__payments-img {
+        width: 80px;
+        height: 39px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .header__headline-brand {
+        font-size: 14px;
+        margin: 10px 0px;
+    }
+    .header__img {
+        width: 35px;
+        height: 35px;
+    }
+    .navbar-nav-link {
+        font-size: 14px;
+    }
+    .section__akses-cepat-card-img {
+        width: 100%;
+        height: 250px;
+        margin-bottom: 10px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+}
