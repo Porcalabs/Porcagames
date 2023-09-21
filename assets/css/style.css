@@ -9,6 +9,12 @@ html {
     font-size: 24px !important;
 }
 
+.section__games-form-control-seach-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
 header {
     background-color: #272b36;
 }
@@ -97,15 +103,14 @@ ul {
 }
 
 .section__game-populer-img {
-    width: 208px;
+    width: 188px;
     height: 292px;
     border-radius: 10px;
 }
-
-.section__game-populer {
-    display: flex;
-    flex-wrap: nowrap;
-    overflow-x: scroll;
+.section__game-all-img {
+    width: 188px;
+    height: 292px;
+    border-radius: 10px;
 }
 
 .section__game-populer-img {
@@ -126,7 +131,7 @@ ul {
 .form-control-section__games {
     position: relative;
     border-radius: 50px;
-    padding: 10px 24px 10px 16px;
+    padding: 10px 100px 10px 16px;
     background-color: #333947;
     border: 0.5px solid #2582e1;
     font-size: 12px;
@@ -163,7 +168,7 @@ ul {
     overflow-x: scroll;
 }
 .footer__payments-img {
-    width: 123px;
+    width: 63px;
     height: 39px;
     object-fit: contain;
 }
@@ -197,6 +202,11 @@ ul {
     .card-wrapper {
         padding: 17px 12px;
     }
+    .section__akses-cepat-row {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
     .section__akses-cepat-card-img {
         width: 100%;
         height: 150px;
@@ -211,6 +221,11 @@ ul {
         width: calc(208px - 70px);
         height: 190px;
     }
+    .section__game-all-img {
+        width: 80px;
+        height: 190px;
+        object-fit: cover;
+    }
     .section__games-nav {
         display: flex;
         flex-wrap: nowrap;
@@ -224,8 +239,13 @@ ul {
     .card-wrapper + .section__games {
         border-radius: 16px !important;
     }
+    .section__game-populer {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
     .section__game-populer-img {
-        width: 40%;
+        width: 100%;
     }
     .footer__headline-brand {
         font-size: 18px;
@@ -246,16 +266,23 @@ ul {
     }
     .footer__link {
         font-size: 12px;
+        white-space: nowrap;
     }
     .footer__link-img {
         width: 20px;
         height: 20px;
     }
+    .footer__payments-row {
+        display: flex !important;
+        justify-content: space-around;
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
     .footer__payments-title {
         font-size: 14px;
     }
     .footer__payments-img {
-        width: 80px;
+        width: 60px;
         height: 39px;
     }
 }
@@ -302,6 +329,10 @@ ul {
     .btn-primary {
         padding: 4px 0px !important;
     }
+    .section__game-all-img {
+        width: 100px;
+        height: 190px;
+    }
 }
 
 /* // Medium devices (tablets, 768px and up) */
@@ -328,6 +359,14 @@ ul {
     .section__banner-img {
         height: 299px;
     }
+    .section__game-populer {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
+    .section__game-populer-img {
+        width: 100%;
+    }
     .section__akses-cepat-card-img {
         width: 100%;
         height: 150px;
@@ -349,6 +388,7 @@ ul {
         flex-wrap: nowrap;
         white-space: nowrap;
     }
+
     .footer__headline-brand {
         font-size: 18px;
         margin: 10px 0px;
@@ -399,6 +439,14 @@ ul {
         width: 100%;
         height: 250px;
         margin-bottom: 10px;
+    }
+    .section__game-populer {
+        display: flex !important;
+        flex-wrap: nowrap !important;
+        overflow-x: scroll !important;
+    }
+    .section__game-populer-img {
+        width: 100%;
     }
 }
 
