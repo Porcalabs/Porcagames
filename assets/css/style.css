@@ -219,9 +219,9 @@ ul {
         height: 150px;
     }
     .section__game-all-img {
-        width: 80px;
-        height: 190px;
-        object-fit: cover;
+        width: 96px;
+        height: 132px;
+        object-fit: contain;
     }
     .section__games-nav {
         display: flex;
@@ -281,29 +281,7 @@ ul {
     }
 }
 
-/* // Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-    .header__headline-brand {
-        font-size: 18px;
-        margin: 10px 0px;
-    }
-
-    .header__img {
-        width: 40px;
-        height: 35px;
-    }
-    .btn-primary {
-        padding: 10px 0px !important;
-        width: 100%;
-    }
-    .navbar-nav-link {
-        font-size: 16px;
-    }
-    .navbar-toggler {
-        background-color: #ffffff !important;
-        border: 1px solid gray !important;
-    }
-}
+/* // Small devices (landscape phones, 375px and up) */
 @media (min-width: 375px) and (max-width: 425px) {
     .section__akses-cepat-card-body {
         display: flex;
@@ -325,8 +303,50 @@ ul {
         padding: 4px 0px !important;
     }
     .section__game-all-img {
-        width: 100px;
-        height: 190px;
+        width: 119px;
+        height: 161px;
+        object-fit: contain;
+    }
+    .section__game-populer-img {
+        width: 115px;
+        height: 152px;
+        object-fit: contain;
+    }
+}
+@media (min-width: 425px) and (max-width: 576px) {
+    .section__game-populer-img {
+        width: 124px;
+        height: 152px;
+        object-fit: cover;
+    }
+    .section__game-all-img {
+        width: 132px;
+        height: 161px;
+        object-fit: cover;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .header__headline-brand {
+        font-size: 18px;
+        margin: 10px 0px;
+    }
+
+    .header__img {
+        width: 40px;
+        height: 35px;
+    }
+    .btn-primary {
+        padding: 10px 0px !important;
+        width: 100%;
+    }
+    .navbar-nav-link {
+        font-size: 16px;
+    }
+    .navbar-toggler {
+        background-color: #ffffff !important;
+        border: 1px solid gray !important;
     }
 }
 
