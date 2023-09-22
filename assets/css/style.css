@@ -19,11 +19,11 @@ header {
     background-color: #272b36;
 }
 .header__img {
-    width: 61px;
-    height: 58px;
+    width: 37px;
+    height: 34px;
 }
 .header__headline-brand {
-    font-size: 36px;
+    font-size: 21px;
     font-weight: 700;
     line-height: 117%;
     background: -webkit-linear-gradient(-86deg, #0a7bd7 53%, #033b6a 91%);
@@ -37,7 +37,7 @@ header {
     font-weight: 600;
     background-color: #2582e1 !important;
     border-radius: 5px !important;
-    padding: 10px 22px !important;
+    padding: 8px 22px !important;
 }
 
 ul {
@@ -48,16 +48,22 @@ ul {
 }
 .section__banner-img {
     object-fit: cover;
-    height: 499px;
+    height: 400px;
 }
 .card-wrapper {
-    padding: 17px 31px;
+    padding: 20px 20px;
     background-color: #212530;
-    border-radius: 25px;
+    border-radius: 15px;
+}
+
+.card-wrapper-search {
+    padding: 8px 8px;
+    background-color: #212530;
+    border-radius: 30px;
 }
 
 .card {
-    border-radius: 20px !important;
+    border-radius: 10px !important;
     width: 100% !important;
     color: white !important;
     background-color: #333947 !important;
@@ -98,7 +104,7 @@ ul {
 }
 
 .section__akses-cepat-card-body-text-desc {
-    font-size: 1.3rem !important;
+    font-size: 1rem !important;
     font-weight: 800;
 }
 
@@ -170,6 +176,7 @@ ul {
     object-fit: contain;
 }
 
+
 /* // Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
     .header__headline-brand {
@@ -198,6 +205,9 @@ ul {
     }
     .card-wrapper {
         padding: 17px 12px;
+    }
+    .card-wrapper-search {
+        border-radius: 15px;
     }
     .section__akses-cepat-row {
         display: flex !important;
